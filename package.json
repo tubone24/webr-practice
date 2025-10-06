@@ -1,0 +1,35 @@
+{
+  "name": "webr-playground",
+  "version": "1.0.0",
+  "description": "ブラウザ上でRコードを実行できるインタラクティブな実験環境",
+  "main": "js/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve . -p 8080",
+    "build": "echo 'No build process required for this project'",
+    "serve": "python3 -m http.server 8080",
+    "dev": "npx live-server --port=8080"
+  },
+  "keywords": [
+    "WebR",
+    "R",
+    "statistics",
+    "data-analysis",
+    "interactive",
+    "playground"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/webr-playground.git"
+  },
+  "homepage": "https://yourusername.github.io/webr-playground/"
+}
